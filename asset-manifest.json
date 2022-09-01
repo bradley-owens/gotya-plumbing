@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/gotya-plumbing/static/css/main.31d6cfe0.css",
+    "main.js": "/gotya-plumbing/static/js/main.579a7a5a.js",
+    "index.html": "/gotya-plumbing/index.html",
+    "main.579a7a5a.js.map": "/gotya-plumbing/static/js/main.579a7a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.579a7a5a.js"
+  ]
+}
