@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  gap: 4rem;
+  padding: 5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h1 span {
+  color: #ff8e25;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ff8e25;
+  padding: 0.8rem;
+  border-radius: 20px;
+}
+
+.img {
+  width: 40rem;
+  margin-right: -3rem;
+}
