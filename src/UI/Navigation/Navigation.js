@@ -12,9 +12,9 @@ const Navigation = (props) => {
         <a href="/">Reviews</a>
       </div>
       <div>
-        <a className={styles.contact} href="/">
+        <p className={styles.contact} href="/">
           Contact
-        </a>
+        </p>
       </div>
     </nav>
   );
