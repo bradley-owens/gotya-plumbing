@@ -1,0 +1,36 @@
+.displayed {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  gap: 1.2rem;
+  width: 35rem;
+  height: 30rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  gap: 1.5rem;
+  border-bottom: 2px solid #ff8e25;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff8e25;
+  text-align: left;
+}
+
+.icon {
+  width: 3rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem;
+}

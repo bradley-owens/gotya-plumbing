@@ -1,7 +1,14 @@
 .services {
   padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.title {
+  text-align: end;
+  margin-right: 6rem;
+}
 .flex-services {
   display: flex;
   flex-direction: column;
