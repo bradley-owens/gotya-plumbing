@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../Images/Logo.png";
+import Button from "./Button/Button";
 import styles from "./Navigation.module.css";
 
 const Navigation = (props) => {
@@ -7,14 +8,18 @@ const Navigation = (props) => {
     <nav className={styles.nav}>
       <img className={styles.img} src={Logo}></img>
       <div className={styles.links}>
-        <a href="/">Services</a>
-        <a href="/">Location</a>
-        <a href="/">Reviews</a>
+        <a className={styles.link} href="/">
+          Services
+        </a>
+        <a className={styles.link} href="/">
+          Location
+        </a>
+        <a className={styles.link} href="/">
+          Reviews
+        </a>
       </div>
       <div>
-        <p className={styles.contact} href="/">
-          Contact
-        </p>
+        <Button text="Contact" href="/"></Button>
       </div>
     </nav>
   );

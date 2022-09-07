@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
+import Button from "../../UI/Navigation/Button/Button";
+
 import Navigation from "../../UI/Navigation/Navigation";
 import img from "../../Images/Hero.png";
+
 import styles from "./Hero.module.css";
 
 const Hero = () => {
@@ -14,9 +17,7 @@ const Hero = () => {
           </h1>
           <div>
             <h2>Plumbing Solutions</h2>
-            <p className={styles.quote} href="/">
-              Get a Quote
-            </p>
+            <Button text="Get a Quote" href="/"></Button>
           </div>
         </div>
         <img className={styles.img} src={img}></img>

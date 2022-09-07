@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Button from "../../UI/Navigation/Button/Button";
 import styles from "./ServiceModal.module.css";
 import BathroomRenovation from "../../Icons/BathroomRenovation.svg";
 import CctvSVG from "../../Icons/CCTV.svg";
@@ -6,7 +7,9 @@ import MaintenanceSVG from "../../Icons/Maintenance.svg";
 import StormSVG from "../../Icons/Storm.svg";
 
 const ServiceModal = (props) => {
-  console.log(props.chosenService);
+  // console.log(props.chosenService);
+
+  const clickedService = props.chosenService;
 
   const [chosen, setChosen] = useState({
     title: "Maintenance Plumbing",
@@ -16,30 +19,30 @@ const ServiceModal = (props) => {
   });
 
   const changeModal = () => {
-    if (props.chosenService.type === "Maintenance Plumbing") {
+    if (clickedService.type === "Maintenance Plumbing") {
       setChosen({
-        title: "Maintenance Plumbing",
+        title: clickedService.type,
         icon: MaintenanceSVG,
         description:
           "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
       });
-    } else if (props.chosenService.type === "Bathroom Renovations") {
+    } else if (clickedService.type === "Bathroom Renovations") {
       setChosen({
-        title: "Bathroom Renovation",
+        title: clickedService.type,
         icon: BathroomRenovation,
         description:
           "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
       });
-    } else if (props.chosenService.type === "CCTV Drain Camera Inspections") {
+    } else if (clickedService.type === "CCTV Drain Camera Inspections") {
       setChosen({
-        title: "CCTV Drain Camera Inspections",
+        title: clickedService.type,
         icon: CctvSVG,
         description:
           "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
       });
-    } else if (props.chosenService.type === "Sewer and Stormwater Drainage") {
+    } else if (clickedService.type === "Sewer and Stormwater Drainage") {
       setChosen({
-        title: "Sewer & Stormwater Drainage",
+        title: clickedService.type,
         icon: StormSVG,
         description:
           "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
@@ -52,13 +55,13 @@ const ServiceModal = (props) => {
   }, [props.chosenService]);
 
   return (
-    <div className={styles.displayed}>
+    <div className={styles.displayed} id="display">
       <div className={styles.top}>
         <p className={styles.title}>{chosen.title}</p>
         <img className={styles.icon} src={chosen.icon}></img>
       </div>
       <p className={styles.description}>{chosen.description}</p>
-      <p></p>
+      <Button text="Contact" href="/"></Button>
     </div>
   );
 };
