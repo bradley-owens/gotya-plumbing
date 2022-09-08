@@ -8,6 +8,8 @@ import MaintenanceSVG from "../../Icons/Maintenance.svg";
 import StormSVG from "../../Icons/Storm.svg";
 
 const Services = () => {
+  const [click, setClick] = useState(false);
+
   const [clickedService, setClickedService] = useState({
     type: "Maintenance Plumbing",
   });
@@ -16,6 +18,12 @@ const Services = () => {
     setClickedService({
       type: e.target.id,
     });
+
+    setClick(true);
+
+    setInterval(() => {
+      setClick(false);
+    }, 1200);
   };
 
   return (
@@ -47,7 +55,7 @@ const Services = () => {
           />
         </div>
         <div className={styles.main}>
-          <ServiceModal chosenService={clickedService} />
+          <ServiceModal clicked={click} chosenService={clickedService} />
         </div>
       </ul>
     </Fragment>

@@ -52,10 +52,13 @@ const ServiceModal = (props) => {
 
   useEffect(() => {
     changeModal();
-  }, [props.chosenService]);
+  }, [clickedService]);
 
   return (
-    <div className={styles.displayed} id="display">
+    <div
+      className={props.clicked ? styles.animation : styles.displayed}
+      id="display"
+    >
       <div className={styles.top}>
         <p className={styles.title}>{chosen.title}</p>
         <img className={styles.icon} src={chosen.icon}></img>
