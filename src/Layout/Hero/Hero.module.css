@@ -45,3 +45,27 @@ h2 {
 
   /* opacity: 70%; */
 }
+
+@media (max-width: 950px) {
+  .hero {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    border-bottom: #ff8e25 3px solid;
+    padding-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .img {
+    width: 24rem;
+    margin-bottom: -4rem;
+  }
+}
