@@ -5,10 +5,10 @@ import Services from "./Layout/Services/Services";
 
 function App() {
   return (
-    <Fragment>
-      <Hero />
-      <Services />
-    </Fragment>
+    <div className={styles.container}>
+      <Hero className={styles.section} />
+      <Services className={styles.section} />
+    </div>
   );
 }
 

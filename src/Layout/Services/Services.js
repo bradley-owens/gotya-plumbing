@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import styles from "./Services.module.css";
 import ServiceChoice from "../../UI/Navigation/Service/ServiceChoice";
 import ServiceModal from "./ServiceModal";
@@ -8,7 +8,7 @@ import MaintenanceSVG from "../../Icons/Maintenance.svg";
 import StormSVG from "../../Icons/Storm.svg";
 
 const Services = () => {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState();
 
   const [clickedService, setClickedService] = useState({
     type: "Maintenance Plumbing",
@@ -21,13 +21,13 @@ const Services = () => {
 
     setClick(true);
 
-    setInterval(() => {
+    setTimeout(() => {
       setClick(false);
-    }, 1200);
+    }, 1000);
   };
 
   return (
-    <Fragment>
+    <div id="services">
       <h1 className={styles.title}> Quick, easy, simple...</h1>
 
       <ul className={styles.services}>
@@ -58,7 +58,7 @@ const Services = () => {
           <ServiceModal clicked={click} chosenService={clickedService} />
         </div>
       </ul>
-    </Fragment>
+    </div>
   );
 };
 
