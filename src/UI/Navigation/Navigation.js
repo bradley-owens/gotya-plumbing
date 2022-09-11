@@ -15,7 +15,7 @@ const Navigation = (props) => {
         <a className={styles.link} href="/">
           Location
         </a>
-        <a className={styles.link} href="/">
+        <a className={styles.link} href="#reviews">
           Reviews
         </a>
       </div>

@@ -1,0 +1,17 @@
+.main-container {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: right;
+}
+
+.review-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 1.5rem;
+  padding: 4rem 3rem 4rem;
+}

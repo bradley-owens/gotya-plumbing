@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid #ff8e25;
+  box-shadow: 0 2px 15px 0px rgb(255, 142, 37, 0.2);
+  padding: 2.5rem;
+}
+
+.name {
+  font-size: 2rem;
+  color: #ff8e25;
+  font-weight: bolder;
+}
+
+.review {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
