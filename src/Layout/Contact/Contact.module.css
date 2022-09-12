@@ -1,0 +1,20 @@
+.flex-container {
+  display: flex;
+  gap: 5rem;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.areas {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

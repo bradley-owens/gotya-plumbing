@@ -3,10 +3,10 @@ import styles from "./Information.module.css";
 
 const Information = (props) => {
   return (
-    <div className={styles.container}>
-      <icon></icon>
-      <h2>{props.info}</h2>
-    </div>
+    <li className={styles.container}>
+      <img className={styles.icon} src={props.svg}></img>
+      <p className={styles.info}>{props.info}</p>
+    </li>
   );
 };
 

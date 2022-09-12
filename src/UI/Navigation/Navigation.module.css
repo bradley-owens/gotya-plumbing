@@ -16,6 +16,7 @@
 }
 .img {
   width: 5rem;
+  transition: 1s;
 }
 
 .img:hover {
