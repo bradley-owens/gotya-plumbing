@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <Fragment>
       <Navigation />
-      <div className={styles.hero}>
+      <div id="home" className={styles.hero}>
         <div className={styles.main}>
           <h1>
             Don't worry, we've <span>Gotya</span> covered...
