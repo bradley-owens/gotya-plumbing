@@ -5,7 +5,7 @@ import Testimonial from "./Testimonial";
 const Reviews = () => {
   return (
     <div className={styles["main-container"]} id="reviews">
-      <h1 className={styles.title}>What our customers have to say about us</h1>
+      <h1 className={styles.title}>Let our customers do the talking...</h1>
       <div className={styles["review-container"]}>
         <Testimonial
           name="Bradley"

@@ -12,11 +12,11 @@ const Navigation = (props) => {
         <a className={styles.link} href="#services">
           Services
         </a>
-        <a className={styles.link} href="/">
-          Location
-        </a>
         <a className={styles.link} href="#reviews">
           Reviews
+        </a>
+        <a className={styles.link} href="/">
+          Gallery
         </a>
       </div>
       <div>

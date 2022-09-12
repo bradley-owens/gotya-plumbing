@@ -2,29 +2,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 1.5rem 2rem 1rem;
 }
 
 .links {
   display: flex;
   gap: 5rem;
+  align-items: center;
 }
 .img {
   width: 5rem;
 }
 
-.contact {
-  background-color: #ff8e25;
-  padding: 0.8rem;
-  border-radius: 20px;
-  cursor: pointer;
-  text-decoration: none;
+.img:hover {
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 .link {
   text-decoration: none;
   font-weight: bold;
+  transition: 0.5s;
 }
 
 .link:hover {

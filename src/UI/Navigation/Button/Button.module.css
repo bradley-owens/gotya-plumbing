@@ -7,4 +7,14 @@
   border-radius: 20px;
   width: fit-content;
   cursor: pointer;
+  text-align: center;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background-color: #f97900;
+  color: white;
+  transition: 0.3s;
+  border: 3px solid white;
+  letter-spacing: 1.5px;
 }

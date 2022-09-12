@@ -27,9 +27,8 @@ const Services = () => {
   };
 
   return (
-    <div id="services">
+    <div className={styles.container} id="services">
       <h1 className={styles.title}> Quick, easy, simple...</h1>
-
       <ul className={styles.services}>
         <div className={styles["flex-services"]}>
           <ServiceChoice
