@@ -64,7 +64,7 @@ const ServiceModal = (props) => {
         <img className={styles.icon} src={chosen.icon}></img>
       </div>
       <p className={styles.description}>{chosen.description}</p>
-      <Button text="Contact" href="/"></Button>
+      <Button text="Contact" href="#contact"></Button>
     </div>
   );
 };

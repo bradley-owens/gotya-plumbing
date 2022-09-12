@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
           <div>
             <h2>Plumbing Solutions</h2>
-            <Button text="Get a Quote" href="/"></Button>
+            <Button text="Get a Quote" href="#contact"></Button>
           </div>
         </div>
         <img className={styles.img} src={img}></img>

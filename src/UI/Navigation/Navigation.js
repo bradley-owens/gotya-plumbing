@@ -19,7 +19,7 @@ const Navigation = () => {
         </a>
       </div>
       <div>
-        <Button text="Contact" href="/"></Button>
+        <Button text="Contact" href="#contact"></Button>
       </div>
     </nav>
   );

@@ -6,6 +6,7 @@
 
 .title {
   text-align: center;
+  font-size: 3.2rem;
 }
 
 .areas {
@@ -13,6 +14,10 @@
   text-align: center;
 }
 
+.title,
+.areas {
+  margin-right: 2.5rem;
+}
 .information {
   display: flex;
   flex-direction: column;
