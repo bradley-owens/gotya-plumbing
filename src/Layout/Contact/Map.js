@@ -6,6 +6,8 @@ const mapStyle = {
   width: "700px",
   height: "400px",
   borderRadius: "20px",
+  border: "4px solid white",
+  marginTop: "-2rem",
 };
 
 const center = {
