@@ -1,12 +1,22 @@
 {
   "files": {
-    "main.css": "/gotya-plumbing/static/css/main.31d6cfe0.css",
-    "main.js": "/gotya-plumbing/static/js/main.579a7a5a.js",
+    "main.css": "/gotya-plumbing/static/css/main.050fe03f.css",
+    "main.js": "/gotya-plumbing/static/js/main.94b95e95.js",
+    "static/media/Hero.png": "/gotya-plumbing/static/media/Hero.3490973d9923cae3bee3.png",
+    "static/media/Logo.png": "/gotya-plumbing/static/media/Logo.6545e6b28c78424aaa26.png",
     "index.html": "/gotya-plumbing/index.html",
-    "main.579a7a5a.js.map": "/gotya-plumbing/static/js/main.579a7a5a.js.map"
+    "static/media/BathroomRenovation.svg": "/gotya-plumbing/static/media/BathroomRenovation.90d14c5746fa4b6ff798d0944c2c682f.svg",
+    "static/media/CCTV.svg": "/gotya-plumbing/static/media/CCTV.3fb686da63fe3b3264f858c26e6a97d1.svg",
+    "static/media/Instagram.svg": "/gotya-plumbing/static/media/Instagram.3fb686da63fe3b3264f858c26e6a97d1.svg",
+    "static/media/PhoneIcon.svg": "/gotya-plumbing/static/media/PhoneIcon.3097058f7f636134df3322686ad479d0.svg",
+    "static/media/Email.svg": "/gotya-plumbing/static/media/Email.3dda79cbf9db0aed96485d8dfab99ba4.svg",
+    "static/media/Maintenance.svg": "/gotya-plumbing/static/media/Maintenance.428c5363f71de7558b55e0927d3b20cc.svg",
+    "static/media/Storm.svg": "/gotya-plumbing/static/media/Storm.75184fcb42347af0daf919f9e264d377.svg",
+    "main.050fe03f.css.map": "/gotya-plumbing/static/css/main.050fe03f.css.map",
+    "main.94b95e95.js.map": "/gotya-plumbing/static/js/main.94b95e95.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.579a7a5a.js"
+    "static/css/main.050fe03f.css",
+    "static/js/main.94b95e95.js"
   ]
 }
