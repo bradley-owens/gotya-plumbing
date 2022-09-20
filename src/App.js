@@ -4,6 +4,7 @@ import Hero from "./Layout/Hero/Hero";
 import Services from "./Layout/Services/Services";
 import Reviews from "./Layout/Reviews/Reviews";
 import Contact from "./Layout/Contact/Contact";
+import Footer from "./Layout/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services className={styles.section} />
       <Reviews className={styles.section} />
       <Contact className={styles.section} />
+      {/* <Footer /> */}
     </div>
   );
 }

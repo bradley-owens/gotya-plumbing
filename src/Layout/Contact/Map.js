@@ -1,6 +1,6 @@
 import React from "react";
 
-import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader, Circle } from "@react-google-maps/api";
 
 const mapStyle = {
   width: "700px",
@@ -23,30 +23,20 @@ const Map = () => {
 
   const [map, setMap] = React.useState(null);
 
-  // const onLoad = React.useCallback(function callback(map) {
-  //   const bounds = new window.google.maps.LatLngBounds(center);
-  //   map.fitBounds(bounds);
-  //   setMap(map);
-  // }, []);
-
-  // const onUnmount = React.useCallback(function callback(map) {
-  //   setMap(null);
-  // }, []);
+  const circleOptions = {
+    strokeOpacity: 1,
+    strokeWeight: 0.1,
+    fillOpacity: 0.1,
+  };
 
   const zoom = 8;
 
-  return isLoaded ? (
-    <GoogleMap
-      mapContainerStyle={mapStyle}
-      center={center}
-      zoom={zoom}
-      // onLoad={onLoad}
-      // onUnmount={onUnmount}
-    >
-      <></>
-    </GoogleMap>
-  ) : (
-    <></>
+  return (
+    isLoaded && (
+      <GoogleMap mapContainerStyle={mapStyle} center={center} zoom={zoom}>
+        <Circle center={center} radius={80000} options={circleOptions} />
+      </GoogleMap>
+    )
   );
 };
 
