@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gotya-plumbing/static/css/main.050fe03f.css",
-    "main.js": "/gotya-plumbing/static/js/main.94b95e95.js",
+    "main.css": "/gotya-plumbing/static/css/main.890e5894.css",
+    "main.js": "/gotya-plumbing/static/js/main.e8c1e46b.js",
     "static/media/Hero.png": "/gotya-plumbing/static/media/Hero.3490973d9923cae3bee3.png",
     "static/media/Logo.png": "/gotya-plumbing/static/media/Logo.6545e6b28c78424aaa26.png",
     "index.html": "/gotya-plumbing/index.html",
@@ -12,11 +12,11 @@
     "static/media/Email.svg": "/gotya-plumbing/static/media/Email.3dda79cbf9db0aed96485d8dfab99ba4.svg",
     "static/media/Maintenance.svg": "/gotya-plumbing/static/media/Maintenance.428c5363f71de7558b55e0927d3b20cc.svg",
     "static/media/Storm.svg": "/gotya-plumbing/static/media/Storm.75184fcb42347af0daf919f9e264d377.svg",
-    "main.050fe03f.css.map": "/gotya-plumbing/static/css/main.050fe03f.css.map",
-    "main.94b95e95.js.map": "/gotya-plumbing/static/js/main.94b95e95.js.map"
+    "main.890e5894.css.map": "/gotya-plumbing/static/css/main.890e5894.css.map",
+    "main.e8c1e46b.js.map": "/gotya-plumbing/static/js/main.e8c1e46b.js.map"
   },
   "entrypoints": [
-    "static/css/main.050fe03f.css",
-    "static/js/main.94b95e95.js"
+    "static/css/main.890e5894.css",
+    "static/js/main.e8c1e46b.js"
   ]
 }
