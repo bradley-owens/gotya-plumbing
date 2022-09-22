@@ -15,7 +15,7 @@ const ServiceModal = (props) => {
     title: "Maintenance Plumbing",
     icon: MaintenanceSVG,
     description:
-      "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
+      "With no limitations to our service, we will get you up and going in no time. Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
   });
 
   const changeModal = () => {
@@ -24,28 +24,28 @@ const ServiceModal = (props) => {
         title: clickedService.type,
         icon: MaintenanceSVG,
         description:
-          "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
+          "With no limitations to our service, we will get you up and going in no time. Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
       });
     } else if (clickedService.type === "Bathroom Renovations") {
       setChosen({
         title: clickedService.type,
         icon: BathroomRenovation,
         description:
-          "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
+          "Does your bathroom need an update? We have all the trades covered, ready for a call to give you your dream bathroom. Get in touch for a quote for you next bathroom renovation.",
       });
     } else if (clickedService.type === "CCTV Drain Camera Inspections") {
       setChosen({
         title: clickedService.type,
         icon: CctvSVG,
         description:
-          "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
+          "With our CCTV Drain Camera inspections, we can show you how blocked your drains are or we can beat it to the punchline and get it sorted with the help of our prior inspections.",
       });
     } else if (clickedService.type === "Sewer and Stormwater Drainage") {
       setChosen({
         title: clickedService.type,
         icon: StormSVG,
         description:
-          "With no limitations to our service we will get you up and going in no time.Get in contact with us to discuss the problem and we'll let you know when we'll be there.",
+          "Blocked or damaged sewers and storm drains can be a nightmare. Give us a call and let us take care of it for you. We'll give you the solutions to keep the stress off your shoulders and on ours. ",
       });
     }
   };
