@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Button from "../../UI/Navigation/Button/Button";
+import Button from "../../UI/Button/Button";
 import styles from "./ServiceModal.module.css";
 import BathroomRenovation from "../../Icons/BathroomRenovation.svg";
 import CctvSVG from "../../Icons/CCTV.svg";
@@ -61,7 +61,7 @@ const ServiceModal = (props) => {
     >
       <div className={styles.top}>
         <p className={styles.title}>{chosen.title}</p>
-        <img className={styles.icon} src={chosen.icon}></img>
+        <img className={styles.icon} alt="icon" src={chosen.icon}></img>
       </div>
       <p className={styles.description}>{chosen.description}</p>
       <Button text="Contact" href="#contact"></Button>

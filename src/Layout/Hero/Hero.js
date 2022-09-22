@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Button from "../../UI/Navigation/Button/Button";
+import Button from "../../UI/Button/Button";
 
 import Navigation from "../../UI/Navigation/Navigation";
 import img from "../../Images/Hero.png";
@@ -20,7 +20,7 @@ const Hero = () => {
             <Button text="Get a Quote" href="#contact"></Button>
           </div>
         </div>
-        <img className={styles.img} src={img}></img>
+        <img className={styles.img} alt="broken plumbing" src={img}></img>
       </div>
     </Fragment>
   );

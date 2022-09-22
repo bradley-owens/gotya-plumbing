@@ -1,6 +1,6 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useState } from "react";
 import styles from "./Services.module.css";
-import ServiceChoice from "../../UI/Navigation/Service/ServiceChoice";
+import ServiceChoice from "../../UI/Service/ServiceChoice";
 import ServiceModal from "./ServiceModal";
 import BathroomRenovation from "../../Icons/BathroomRenovation.svg";
 import CctvSVG from "../../Icons/CCTV.svg";

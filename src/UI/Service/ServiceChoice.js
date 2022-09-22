@@ -4,7 +4,12 @@ const ServiceChoice = (props) => {
   return (
     <div>
       <li className={styles.container} onClick={props.onClick} id={props.type}>
-        <img className={styles.icon} id={props.type} src={props.svg}></img>
+        <img
+          className={styles.icon}
+          alt="icon"
+          id={props.type}
+          src={props.svg}
+        ></img>
         <p className={styles["service-type"]} id={props.type}>
           {props.type}
         </p>
