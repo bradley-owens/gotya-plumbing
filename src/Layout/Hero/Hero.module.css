@@ -28,7 +28,7 @@ h2 {
 }
 
 .img {
-  width: 44rem;
+  width: 55%;
   margin-top: -5rem;
   margin-right: -3rem;
 
@@ -39,8 +39,18 @@ h2 {
   .hero {
     display: flex;
     gap: 2rem;
-    padding: 3rem;
+    padding: 3rem 3rem 2rem 5rem;
     margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .main {
+    align-items: center;
+    margin-bottom: 0rem;
+  }
+
+  .img {
+    display: none;
   }
 
   h1 {
@@ -51,10 +61,6 @@ h2 {
 
   h2 {
     font-size: 2rem;
-  }
-
-  .img {
-    width: 24rem;
-    margin-bottom: -4rem;
+    text-align: center;
   }
 }
