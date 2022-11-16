@@ -1,9 +1,9 @@
 .container {
   margin-bottom: 1rem;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .services {
-  padding: 3rem;
+  padding: 2.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
