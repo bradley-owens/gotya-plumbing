@@ -11,11 +11,11 @@ const Navigation = () => {
         <a className={styles.link} href="#home">
           Home
         </a>
+        <a className={styles.link} href="#about">
+          About
+        </a>
         <a className={styles.link} href="#services">
           Services
-        </a>
-        <a className={styles.link} href="#reviews">
-          Reviews
         </a>
       </div>
       <button text="Contact" href="#contact">
