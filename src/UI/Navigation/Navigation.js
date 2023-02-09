@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../Images/Logo.png";
-import Button from "../Button/Button";
+
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
@@ -18,9 +18,9 @@ const Navigation = () => {
           Reviews
         </a>
       </div>
-      <div>
-        <Button text="Contact" href="#contact"></Button>
-      </div>
+      <button text="Contact" href="#contact">
+        Contact
+      </button>
     </nav>
   );
 };

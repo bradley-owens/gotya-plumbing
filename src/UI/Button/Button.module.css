@@ -2,19 +2,17 @@
   font-size: 1.5rem;
   text-decoration: none;
   font-weight: bold;
-  background-color: #ff8e25;
-  padding: 0.8rem;
+  background-color: rgba(255, 142, 37, 0.9);
+  padding: 1rem 1.5rem;
   border-radius: 20px;
   width: fit-content;
   cursor: pointer;
   text-align: center;
-  transition: 0.1s;
+  transition: 0.3s;
 }
 
 .button:hover {
   background-color: #f97900;
-  color: white;
+  padding: 1rem 3rem;
   transition: 0.3s;
-  border: 3px solid white;
-  letter-spacing: 1.5px;
 }

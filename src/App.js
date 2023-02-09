@@ -5,14 +5,16 @@ import Services from "./Layout/Services/Services";
 import Reviews from "./Layout/Reviews/Reviews";
 import Contact from "./Layout/Contact/Contact";
 import Footer from "./Layout/Footer/Footer";
+import Navigation from "./UI/Navigation/Navigation";
 
 function App() {
   return (
     <div className={styles.container}>
+      <Navigation />
       <Hero className={styles.section} />
-      <Services className={styles.section} />
+      {/* <Services className={styles.section} />
       <Reviews className={styles.section} />
-      <Contact className={styles.section} />
+      <Contact className={styles.section} /> */}
       {/* <Footer /> */}
     </div>
   );
