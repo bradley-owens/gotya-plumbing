@@ -52,3 +52,131 @@ h1 span {
 .flex-blocker {
   width: 35%;
 }
+
+@media (max-width: 1168px) {
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    animation: appear 0.5s ease-in-out;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    border-bottom: #ff8e25 3px solid;
+    padding-bottom: 1rem;
+    text-align: end;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .flex-blocker {
+    width: 25%;
+  }
+
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (max-width: 883px) {
+  .hero h1 {
+    font-size: 2.7rem;
+    border-bottom: #ff8e25 3px solid;
+    padding-bottom: 1rem;
+    text-align: end;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .flex-blocker {
+    width: 10%;
+  }
+}
+
+@media (max-width: 631px) {
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    animation: appear 0.5s ease-in-out;
+  }
+  .hero h1 {
+    font-size: 2.4rem;
+    border-bottom: #ff8e25 3px solid;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .flex-blocker {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero {
+    height: 700px;
+  }
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    animation: appear 0.5s ease-in-out;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    border-bottom: #ff8e25 3px solid;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    animation: appear 0.5s ease-in-out;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    border-bottom: #ff8e25 3px solid;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
