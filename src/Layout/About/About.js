@@ -41,27 +41,30 @@ const About = () => {
         </p>
       </motion.div>
 
-      <motion.img
-        src={aboutImg}
-        alt="about-image"
-        initial="hidden"
-        whileInView="visible"
-        variants={{
-          hidden: {
-            x: 100,
-            scale: 0.8,
-            opacity: 0,
-          },
-          visible: {
-            x: 0,
-            scale: 1,
-            opacity: 1,
-            transition: {
-              delay: 0.2,
+      <div className={styles["flex-blocker"]}>
+        <motion.img
+          className={styles["about-img"]}
+          src={aboutImg}
+          alt="about-image"
+          initial="hidden"
+          whileInView="visible"
+          variants={{
+            hidden: {
+              x: 100,
+              scale: 0.8,
+              opacity: 0,
             },
-          },
-        }}
-      />
+            visible: {
+              x: 0,
+              scale: 1,
+              opacity: 1,
+              transition: {
+                delay: 0.2,
+              },
+            },
+          }}
+        />
+      </div>
     </div>
   );
 };
