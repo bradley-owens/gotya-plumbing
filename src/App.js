@@ -5,6 +5,7 @@ import Contact from "./Layout/Contact/Contact";
 import Footer from "./Layout/Footer/Footer";
 import Navigation from "./UI/Navigation/Navigation";
 import About from "./Layout/About/About";
+import Services from "./Layout/Services/Services";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <Hero className={styles.section} />
       <About className={styles.section} />
+      <Services className={styles.section} />
       {/* <Contact className={styles.section} /> */}
       {/* <Footer /> */}
     </div>
