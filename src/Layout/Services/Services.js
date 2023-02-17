@@ -1,13 +1,42 @@
 import styles from "./Services.module.css";
 import { ServiceArray } from "./ServicesArray";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 
 const Services = () => {
+  const title = "See what we can do for".split(" ");
+  let delay = 0.1;
+  console.log(title);
+
   return (
     <main id="services" className={styles.services}>
-      <h1>
-        See what we can do for <span style={{ color: "white" }}>you</span>
-      </h1>
+      <div className={styles.title}>
+        {title.map((charatcer, index) => {
+          delay = delay + 0.15;
+          return (
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              variants={{
+                hidden: {
+                  color: "white",
+                  // scale: 0.8,
+                },
+                visible: {
+                  color: "#ff8e25",
+                  // scale: 1,
+                  transition: {
+                    delay: delay,
+                    duration: 1,
+                  },
+                },
+              }}
+            >
+              {charatcer}
+            </motion.div>
+          );
+        })}
+        <span style={{ color: "white" }}>you</span>
+      </div>
       {ServiceArray.map((service) => {
         return (
           <motion.div
