@@ -8,6 +8,7 @@ const Navigation = () => {
   const toggleMobileNav = () => {
     setNavState(!navState);
   };
+
   return (
     <nav className={styles.nav}>
       <img className={styles.img} alt="logo" src={Logo}></img>

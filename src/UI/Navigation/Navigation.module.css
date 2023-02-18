@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1.8rem;
+  z-index: 10;
 }
 
 .hamburger {
