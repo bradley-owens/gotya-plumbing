@@ -5,7 +5,6 @@ import { delay, motion } from "framer-motion";
 const Services = () => {
   const title = "See what we can do for".split(" ");
   let delay = 0.1;
-  console.log(title);
 
   return (
     <main id="services" className={styles.services}>

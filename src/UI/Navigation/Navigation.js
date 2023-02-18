@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../../Images/Logo.png";
 
 import styles from "./Navigation.module.css";
 
-const Navigation = () => {
+const Navigation = ({ show }) => {
   const [navState, setNavState] = useState(false);
   const toggleMobileNav = () => {
     setNavState(!navState);
