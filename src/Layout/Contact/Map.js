@@ -34,7 +34,7 @@ const Map = () => {
   return (
     isLoaded && (
       <GoogleMap mapContainerStyle={mapStyle} center={center} zoom={zoom}>
-        <Circle center={center} radius={80000} options={circleOptions} />
+        <Circle center={center} radius={90000} options={circleOptions} />
       </GoogleMap>
     )
   );

@@ -9,13 +9,22 @@ import instagram from "../../Icons/Instagram.svg";
 const Contact = () => {
   return (
     <div id="contact" className={styles.container}>
-      <h1 className={styles.title}>Get in touch!</h1>
-      <h2 className={styles.areas}>Sunshine Coast - Brisbane - Esk</h2>
+      <h1 className={styles.title}>Contact Our Plumbing Experts</h1>
+      <h2 className={styles.subtitle}>Get a quote now</h2>
+      <h2 className={styles.subtitle}>Sunshine Coast - Brisbane - Esk</h2>
       <div className={styles["flex-container"]}>
         <div className={styles.information}>
-          <Information svg={phone} info="0428835477" />
-          <Information svg={email} info="bradowens17@hotmail.com" />
-          <Information svg={instagram} info="bradleyowens__" />
+          <Information svg={phone} info="0424807653" href="tel:+61428845477" />
+          <Information
+            svg={email}
+            info="bradowens17@hotmail.com"
+            href={"mailto:bradowens17@hotmail.com"}
+          />
+          <Information
+            svg={instagram}
+            info="gotya.plumbing.solutions"
+            href="https://www.instagram.com/gotya.plumbing.solutions/"
+          />
         </div>
         <div className={styles.map}>
           <Map />

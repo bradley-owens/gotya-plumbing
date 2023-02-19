@@ -1,3 +1,7 @@
+.container {
+  margin: 8rem auto;
+}
+
 .flex-container {
   display: flex;
   gap: 5rem;
@@ -11,8 +15,8 @@
   color: #ff8e25;
 }
 
-.areas {
-  margin-top: 2rem;
+.subtitle {
+  margin-top: 1rem;
   text-align: center;
 }
 
