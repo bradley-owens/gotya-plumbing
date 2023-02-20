@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Logo from "../../Images/Logo.png";
-
+import useDeviceSize from "../../Hooks/useDeviceSize";
 import styles from "./Navigation.module.css";
 
 const Navigation = ({ show }) => {
+  const [width] = useDeviceSize();
   const [navState, setNavState] = useState(false);
   const toggleMobileNav = () => {
     setNavState(!navState);
@@ -16,13 +17,25 @@ const Navigation = ({ show }) => {
         <a className={styles.link} href="#home">
           Home
         </a>
-        <a className={styles.link} href="#about">
+        <a
+          className={styles.link}
+          onClick={width < 1050 ? toggleMobileNav : null}
+          href="#about"
+        >
           About
         </a>
-        <a className={styles.link} href="#services">
+        <a
+          className={styles.link}
+          onClick={width < 1050 ? toggleMobileNav : null}
+          href="#services"
+        >
           Services
         </a>
-        <a className={styles.link} href="#contact">
+        <a
+          className={styles.link}
+          onClick={width < 1050 ? toggleMobileNav : null}
+          href="#contact"
+        >
           Contact
         </a>
       </div>
