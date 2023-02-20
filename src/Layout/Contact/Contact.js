@@ -10,7 +10,6 @@ const Contact = () => {
   return (
     <div id="contact" className={styles.container}>
       <h1 className={styles.title}>Contact Our Plumbing Experts</h1>
-      <h2 className={styles.subtitle}>Get a quote now</h2>
       <h2 className={styles.subtitle}>Sunshine Coast - Brisbane - Esk</h2>
       <div className={styles["flex-container"]}>
         <div className={styles.information}>

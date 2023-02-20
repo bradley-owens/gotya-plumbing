@@ -50,16 +50,16 @@ const About = () => {
           whileInView="visible"
           variants={{
             hidden: {
-              x: 100,
+              y: 40,
               scale: 0.8,
               opacity: 0,
             },
             visible: {
-              x: 0,
+              y: 0,
               scale: 1,
               opacity: 1,
               transition: {
-                delay: 0.2,
+                delay: 0.4,
               },
             },
           }}

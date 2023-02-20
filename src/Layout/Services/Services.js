@@ -13,6 +13,7 @@ const Services = () => {
           delay = delay + 0.15;
           return (
             <motion.div
+              key={index}
               initial="hidden"
               whileInView="visible"
               variants={{
@@ -39,6 +40,7 @@ const Services = () => {
       {ServiceArray.map((service) => {
         return (
           <motion.div
+            key={Math.random()}
             className={styles["service-container"]}
             initial="hidden"
             whileInView="visible"
