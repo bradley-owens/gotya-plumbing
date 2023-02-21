@@ -9,6 +9,7 @@ import styles from "./Hero.module.css";
 const Hero = () => {
   return (
     <Fragment>
+      <Navigation />
       <div id="home" className={styles.hero}>
         <main>
           <div className={styles["hero-info"]}>

@@ -15,7 +15,6 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <Navigation />
       <Hero className={styles.section} />
       <About className={styles.section} />
       <Services className={styles.section} />
