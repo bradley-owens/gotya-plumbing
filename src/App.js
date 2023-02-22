@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import styles from "./App.module.css";
 import Hero from "./Layout/Hero/Hero";
@@ -9,17 +9,18 @@ import About from "./Layout/About/About";
 import Services from "./Layout/Services/Services";
 
 function App() {
-  // const handleScroll = () => {
-  //   console.log(window);
-  // };
+  const [scrollY, setScrollY] = useState(0);
+
+  const test = useCallback((e) => {
+    setScrollY(e.target.scrollTop);
+  }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} onScroll={test}>
       <Hero className={styles.section} />
       <About className={styles.section} />
       <Services className={styles.section} />
       <Contact className={styles.section} />
-      {/* <Footer /> */}
     </div>
   );
 }

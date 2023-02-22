@@ -10,6 +10,18 @@
   z-index: 10;
 }
 
+.hidden {
+  position: relative;
+  top: 0;
+  width: 100vw;
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  z-index: 10;
+}
+
 .hamburger {
   display: none;
 }
@@ -56,6 +68,10 @@
     display: block;
     cursor: pointer;
     z-index: 100;
+  }
+  .img {
+    width: 4rem;
+    transition: 1s;
   }
 
   .opened-hamburger1 {

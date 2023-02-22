@@ -1,8 +1,9 @@
 import styles from "./Services.module.css";
+import React from "react";
 import { ServiceArray } from "./ServicesArray";
 import { delay, motion } from "framer-motion";
 
-const Services = () => {
+const Services = React.memo(() => {
   const title = "See what we can do for".split(" ");
   let delay = 0.1;
 
@@ -71,6 +72,6 @@ const Services = () => {
       })}
     </main>
   );
-};
+});
 
 export default Services;
