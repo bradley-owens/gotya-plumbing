@@ -3,7 +3,7 @@ import Logo from "../../Images/Logo.png";
 import useDeviceSize from "../../Hooks/useDeviceSize";
 import styles from "./Navigation.module.css";
 
-const Navigation = ({ scrollY }) => {
+const Navigation = ({ scroll }) => {
   const [width] = useDeviceSize();
   const [navState, setNavState] = useState(false);
   const toggleMobileNav = () => {
@@ -11,7 +11,7 @@ const Navigation = ({ scrollY }) => {
   };
 
   return (
-    <nav className={scrollY >= 800 ? styles.nav : styles.hidden}>
+    <nav className={scroll >= 800 ? styles.scroll : styles.nav}>
       <img className={styles.img} alt="logo" src={Logo}></img>
       <div className={navState ? styles.open : styles.links}>
         <a className={styles.link} href="#home">

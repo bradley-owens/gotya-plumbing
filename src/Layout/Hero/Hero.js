@@ -6,11 +6,11 @@ import img from "../../Images/background.jpg";
 
 import styles from "./Hero.module.css";
 
-const Hero = () => {
+const Hero = ({ scroll }) => {
   return (
     <Fragment>
       <div id="home" className={styles.hero}>
-        <Navigation />
+        <Navigation scroll={scroll} />
         <div className={styles.flex}>
           <main>
             <div className={styles["hero-info"]}>

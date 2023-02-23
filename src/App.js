@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className={styles.container} onScroll={test}>
-      <Hero className={styles.section} />
+      <Hero className={styles.section} scroll={scrollY} />
       <About className={styles.section} />
       <Services className={styles.section} />
       <Contact className={styles.section} />
