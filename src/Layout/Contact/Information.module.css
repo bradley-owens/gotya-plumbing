@@ -9,12 +9,12 @@
 }
 
 .icon {
-  width: 3rem;
+  width: 3.5rem;
   text-align: center;
 }
 
 .info {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: center;
   font-weight: bolder;
   transition: 0.3s;
@@ -24,6 +24,36 @@
   cursor: pointer;
   color: #ff8e25;
   transition: 0.3s;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    text-decoration: none;
+    padding: 1.5rem;
+
+    transition: 0.3s;
+  }
+
+  .icon {
+    width: 3rem;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bolder;
+    transition: 0.3s;
+  }
+
+  .info:hover {
+    cursor: pointer;
+    color: #ff8e25;
+    transition: 0.3s;
+  }
 }
 
 @media (max-width: 1158px) {
