@@ -198,7 +198,9 @@
   .services {
     width: 80%;
     margin: 5rem auto;
+    padding-top: 2rem;
   }
+
   .title {
     font-size: 2rem;
     margin-bottom: 6rem;

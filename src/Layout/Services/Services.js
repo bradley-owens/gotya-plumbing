@@ -2,6 +2,7 @@ import styles from "./Services.module.css";
 import React from "react";
 import { ServiceArray } from "./ServicesArray";
 import { delay, motion } from "framer-motion";
+import mainimg from "../../Images/main.jpg";
 
 const Services = React.memo(() => {
   const title = "See what we can do for".split(" ");
@@ -66,6 +67,7 @@ const Services = React.memo(() => {
               <h2>{service.name}</h2>
               <img src={service.icon} />
             </div>
+
             <p>{service.description}</p>
           </motion.div>
         );
