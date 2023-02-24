@@ -42,17 +42,6 @@ const Contact = () => {
               </motion.div>
             );
           })}
-          {/* <Information svg={phone} info="0424807653" href="tel:+61428845477" />
-          <Information
-            svg={email}
-            info="bradowens17@hotmail.com"
-            href={"mailto:bradowens17@hotmail.com"}
-          />
-          <Information
-            svg={instagram}
-            info="gotya.plumbing.solutions"
-            href="https://www.instagram.com/gotya.plumbing.solutions/"
-          /> */}
         </div>
         <div className={styles.map}>
           <Map />

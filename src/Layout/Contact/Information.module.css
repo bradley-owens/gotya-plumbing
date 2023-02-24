@@ -8,12 +8,6 @@
   transition: 0.3s;
 }
 
-.container:hover {
-  cursor: pointer;
-  color: #ff8e25;
-  transition: 0.3s;
-}
-
 .icon {
   width: 3rem;
   text-align: center;
@@ -23,6 +17,13 @@
   font-size: 1.8rem;
   text-align: center;
   font-weight: bolder;
+  transition: 0.3s;
+}
+
+.info:hover {
+  cursor: pointer;
+  color: #ff8e25;
+  transition: 0.3s;
 }
 
 @media (max-width: 1158px) {

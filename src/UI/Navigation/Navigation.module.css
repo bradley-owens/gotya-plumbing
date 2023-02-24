@@ -2,11 +2,11 @@
   position: relative;
 
   width: 100vw;
-  padding: 1.5rem 3.5rem;
+  padding: 2rem 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.8rem;
+  font-size: 2rem;
   z-index: 10;
 }
 
@@ -21,8 +21,19 @@
   font-size: 1.8rem;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.875);
+  animation: appear 0.3s ease-in-out;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .hamburger {
   display: none;
 }
@@ -51,6 +62,20 @@
   color: #ff8e25;
   transform: translateY(-0.5rem);
   transition: 0.5s;
+}
+
+@media (max-width: 1440px) {
+  .nav {
+    position: relative;
+
+    width: 100vw;
+    padding: 1.5rem 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    z-index: 10;
+  }
 }
 
 @media (max-width: 1050px) {
