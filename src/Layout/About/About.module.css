@@ -179,7 +179,7 @@
 
 @media (max-width: 867px) {
   .container {
-    padding: 2rem;
+    padding: 1rem;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -193,8 +193,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-left: 1rem;
+    gap: 0rem;
+    margin-left: 0rem;
     text-align: center;
   }
 
@@ -239,8 +239,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-left: 1rem;
+    /* gap: 1rem; */
+    /* margin-left: 1rem; */
   }
 
   .info h2 {
@@ -270,8 +270,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-left: 1rem;
+    /* gap: 1rem; */
+    /* margin-left: 1rem; */
     text-align: center;
   }
 
@@ -302,8 +302,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    margin-left: 1rem;
+    /* gap: 1rem; */
+    /* margin-left: 1rem; */
     text-align: center;
   }
 
