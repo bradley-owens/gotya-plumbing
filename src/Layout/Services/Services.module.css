@@ -197,8 +197,8 @@
 @media (max-width: 589px) {
   .services {
     width: 80%;
-    margin: 5rem auto;
-    padding-top: 2rem;
+    margin: 2rem auto;
+    padding-top: 0rem;
   }
 
   .title {
