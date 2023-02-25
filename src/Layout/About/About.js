@@ -35,9 +35,8 @@ const About = () => {
           For all your plumbing needs, look no further than Gotya Plumbing. From
           renovating your space to fixing clogged drains and unblocking toilets,
           our team of skilled and seasoned plumbers are equipped to handle it
-          all. Our services extend to both residential and commercial
-          properties, accommodating both small and large-scale projects. Trust
-          us to get the job done right.
+          all. Our services extendresidential properties, accommodating both
+          small and large-scale projects. Trust us to get the job done right.
         </p>
       </motion.div>
 

@@ -25,6 +25,7 @@
 .info p {
   font-size: 1.8rem;
   line-height: 1.6;
+  color: rgba(255, 255, 255, 0.74);
 }
 
 .about-img {
@@ -192,21 +193,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-left: 1rem;
     text-align: center;
   }
 
   .info h2 {
     font-size: 2.7rem;
-    color: white;
+    color: #ff8e25;
   }
 
   .info p {
-    background-color: #ff8e25;
+    /* background-color: #ff8e25; */
     font-size: 1.1rem;
     line-height: 1.6;
-    color: black;
+    /* color: black; */
+    color: rgba(255, 255, 255, 0.74);
+
     padding: 1.5rem;
     border-radius: 20px;
   }
@@ -236,13 +239,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-left: 1rem;
   }
 
   .info h2 {
     font-size: 2.5rem;
-    color: white;
+    color: #ff8e25;
   }
 
   .info p {
@@ -267,14 +270,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-left: 1rem;
     text-align: center;
   }
 
   .info h2 {
     font-size: 2rem;
-    color: white;
+    color: #ff8e25;
   }
 
   .info p {
@@ -299,14 +302,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-left: 1rem;
     text-align: center;
   }
 
   .info h2 {
     font-size: 1.9rem;
-    color: white;
+    color: #ff8e25;
   }
 
   .info p {
