@@ -13,8 +13,8 @@ const Contact = () => {
     { icon: phone, name: "0424807653", href: "tel:+61428845477", delay: 0.2 },
     {
       icon: email,
-      name: "bradowens17@hotmail.com",
-      href: "mailto:bradowens17@hotmail.com",
+      name: "gotyaplumbingsolutions@gmail.com",
+      href: "mailto:gotyaplumbingsolutions@gmail.com",
       delay: 0.4,
     },
     {
@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div id="contact" className={styles.container}>
       <h1 className={styles.title}>Contact Our Plumbing Experts</h1>
-      <h2 className={styles.subtitle}>Sunshine Coast - Brisbane - Esk</h2>
+      <h2 className={styles.subtitle}>Sunshine Coast - North Brisbane</h2>
       <div className={styles["flex-container"]}>
         <div className={styles.information}>
           {contactLinks.map(({ icon, name, href, delay }) => {
