@@ -10,7 +10,7 @@ import { AnimationStyle } from "../../Hooks/AnimationStyle";
 
 const Contact = () => {
   const contactLinks = [
-    { icon: phone, name: "0424807653", href: "tel:+61428845477", delay: 0.2 },
+    { icon: phone, name: "0424807653", href: "tel:+61424807653", delay: 0.2 },
     {
       icon: email,
       name: "gotyaplumbingsolutions@gmail.com",

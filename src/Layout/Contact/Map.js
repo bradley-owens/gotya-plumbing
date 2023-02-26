@@ -15,7 +15,8 @@ const Map = () => {
   };
   const mapStyle = {
     width: mapWidth(),
-    height: "50vh",
+    height: "48vh",
+    padding: "0.3rem",
     borderRadius: "20px",
     border: "4px solid white",
     marginTop: "-2rem",
